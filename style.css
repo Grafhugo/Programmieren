@@ -1,0 +1,32 @@
+/*LAYOUT*/
+
+body{
+    background-color: #bada55;
+    display: grid;
+    min-height: 100vh;
+}
+
+/*LAYOUT 1*/
+
+.body--layout-1 {
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header{
+    background-image: url("HugoYoutube.png");
+    border: solid red;
+}
+
+main{
+    border: solid blue;
+}
+
+footer{
+    border: solid yellow;
+}
+
+/*LAYOUT ENDE*/
