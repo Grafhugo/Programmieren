@@ -1,32 +1,68 @@
 /*LAYOUT*/
 
-body{
+body {
     background-color: #bada55;
     display: grid;
     min-height: 100vh;
 }
 
+
 /*LAYOUT 1*/
 
 .body--layout-1 {
     grid-template-rows: auto 1fr auto;
-    grid-template-areas:
-    "header"
-    "main"
-    "footer";
+    grid-template-areas: "header" "main" "footer";
 }
 
-header{
-    background-image: url("HugoYoutube.png");
+.header {
+    background-image: url("bilder/HugoTransp.png");
+    background-size: 800px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: grey;
+    padding: 40px;
+    color: white;
+    text-align: right;
     border: solid red;
 }
 
-main{
-    border: solid blue;
+.nav__item2 {
+    border: solid red;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-size: 25px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
 }
 
-footer{
-    border: solid yellow;
+.nav__item2:hover {
+    background-color: white;
+    color: red;
+    border: solid white;
 }
+
+.main {
+    border: solid blue;
+    background-color: darkgray;
+}
+
+.footer {
+    border: solid yellow;
+    background-color: black;
+}
+
+.footer_list {
+    text-align: center;
+}
+
+.footer__item {
+    border: solid pink;
+    padding: 2px;
+    color: lightgray;
+}
+
 
 /*LAYOUT ENDE*/
